@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Shabnam;
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin:190px auto;
+}
+
+#number{
+    color: white;
+    font-size: 150px;
+}
+
+#decrease{
+    margin: 5px;
+    font-size: 22px;
+    padding: 5px;
+    width: 7rem;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#decrease:hover{
+    border: 2px solid rgb(199, 10, 10);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+    color: orange;
+    transform: translateY(-5px);
+}
+
+#reset{
+    margin: 5px;
+    font-size: 22px;
+    padding: 5px;
+    width: 7rem;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#reset:hover{
+    border: 2px solid rgb(192, 192, 192);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    color: orange;
+    transform: translateY(-5px);
+}
+
+#increase{
+    font-size: 22px;
+    padding: 5px;
+    width: 7rem;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid green;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#increase:hover{
+    border: 2px solid rgb(20, 109, 2);
+    box-shadow: 0 0 20px green;
+    color: orange;
+    transform: translateY(-5px);
+}
+
